@@ -36,6 +36,7 @@ const socialLinks = [
 
 export function Footer() {
   const whatsappUrl = "https://wa.me/551120977579"
+  const emailAddress = "contato@viape.app"
 
   return (
     <footer className="bg-foreground text-background">
@@ -56,10 +57,13 @@ export function Footer() {
               O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa.
             </p>
             <div className="space-y-3 text-sm text-background/70">
-              <div className="flex items-center gap-3">
+              <Link
+                href={`mailto:${emailAddress}`}
+                className="flex items-center gap-3 hover:text-white transition-colors"
+              >
                 <Mail className="w-4 h-4" />
-                <span>contato@viape.app</span>
-              </div>
+                <span>{emailAddress}</span>
+              </Link>
               <Link href={whatsappUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-white transition-colors">
                 <MessageCircle className="w-4 h-4" />
                 <span>(11) 2097-7579</span>
