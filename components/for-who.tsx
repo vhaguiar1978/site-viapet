@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Stethoscope, Scissors, ShoppingBag, Building2 } from "lucide-react"
 
@@ -91,9 +92,11 @@ export function ForWho() {
                 ))}
               </div>
 
-              <Button variant="ghost" className="text-primary hover:text-primary/80 p-0 group-hover:gap-3 transition-all">
-                Saiba mais
-                <ArrowRight className="w-4 h-4 ml-1" />
+              <Button asChild variant="ghost" className="text-primary hover:text-primary/80 p-0 group-hover:gap-3 transition-all">
+                <Link href="#precos">
+                  Saiba mais
+                  <ArrowRight className="w-4 h-4 ml-1" />
+                </Link>
               </Button>
             </motion.div>
           ))}
