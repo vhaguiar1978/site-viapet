@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { PawPrint, Instagram, Facebook, Linkedin, Youtube, Mail, MessageCircle, MapPin } from "lucide-react"
+import { PawPrint, Instagram, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 const footerLinks = {
   produto: [
@@ -36,7 +36,7 @@ const socialLinks = [
 
 export function Footer() {
   const whatsappUrl = "https://wa.me/551120977579"
-  const emailAddress = "contato@viape.app"
+  const emailAddress = "contato@viapet.com.br"
 
   return (
     <footer className="bg-foreground text-background">
@@ -65,7 +65,7 @@ export function Footer() {
                 <span>{emailAddress}</span>
               </Link>
               <Link href={whatsappUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-white transition-colors">
-                <MessageCircle className="w-4 h-4" />
+                <Phone className="w-4 h-4" />
                 <span>(11) 2097-7579</span>
               </Link>
               <div className="flex items-center gap-3">
