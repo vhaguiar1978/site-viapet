@@ -1,5 +1,6 @@
+import Image from "next/image"
 import Link from "next/link"
-import { PawPrint, Instagram, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 const footerLinks = {
   produto: [
@@ -45,12 +46,19 @@ export function Footer() {
         <div className="py-16 grid md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary">
-                <PawPrint className="w-6 h-6 text-primary-foreground" />
-              </div>
-              <span className="text-2xl font-bold" style={{ fontFamily: 'var(--font-display)' }}>
-                Via<span className="text-primary">Pet</span>
+            <Link href="/" className="flex items-center mb-4 -ml-4 lg:-ml-8">
+              <Image
+                src="/logo-viapet.png"
+                alt="ViaPet"
+                width={112}
+                height={112}
+                className="h-20 md:h-24 w-auto object-contain"
+              />
+              <span
+                className="text-4xl md:text-5xl tracking-wide leading-none text-primary -ml-3"
+                style={{ fontFamily: 'var(--font-brand)' }}
+              >
+                ViaPet
               </span>
             </Link>
             <p className="text-background/70 mb-6 max-w-xs">

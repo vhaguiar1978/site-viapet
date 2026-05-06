@@ -50,7 +50,7 @@ export function CTA() {
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-8">
             Teste todas as funcionalidades sem compromisso. E depois, aproveite
             <span className="font-bold text-white"> 50% de desconto </span>
-            nos primeiros 3 meses!
+            nos primeiros 2 meses!
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -60,7 +60,7 @@ export function CTA() {
                 <ArrowRight className="w-5 h-5 ml-2" />
               </a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white/30 text-white hover:bg-white/10 font-medium px-10 py-7 text-lg rounded-xl w-full sm:w-auto">
+            <Button asChild size="lg" className="bg-white hover:bg-white/90 text-primary font-bold px-10 py-7 text-lg rounded-xl w-full sm:w-auto">
               <a href={consultantUrl} target="_blank" rel="noreferrer">
                 Falar com consultor
               </a>

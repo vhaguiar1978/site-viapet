@@ -1,9 +1,10 @@
 "use client"
 
 import { useState } from "react"
+import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-import { Menu, X, PawPrint } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { useProgramLinks } from "@/hooks/use-program-links"
 
 export function Header() {
@@ -13,12 +14,20 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 lg:px-8">
-        <Link href="/" className="flex items-center gap-2">
-          <div className="flex items-center justify-center w-10 h-10 rounded-xl bg-primary">
-            <PawPrint className="w-6 h-6 text-primary-foreground" />
-          </div>
-          <span className="text-2xl font-bold text-foreground" style={{ fontFamily: "var(--font-display)" }}>
-            Via<span className="text-primary">Pet</span>
+        <Link href="/" className="flex items-center">
+          <Image
+            src="/logo-viapet.png"
+            alt="ViaPet"
+            width={96}
+            height={96}
+            priority
+            className="h-14 md:h-16 w-auto object-contain"
+          />
+          <span
+            className="text-3xl md:text-4xl tracking-wide leading-none text-primary -ml-2"
+            style={{ fontFamily: "var(--font-brand)" }}
+          >
+            ViaPet
           </span>
         </Link>
 

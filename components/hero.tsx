@@ -11,7 +11,7 @@ export function Hero() {
   const { registerUrl, consultantUrl } = useProgramLinks()
 
   return (
-    <section className="relative flex items-center pt-24 pb-8 lg:pt-28 lg:pb-12 overflow-hidden">
+    <section className="relative flex items-center pt-28 pb-8 lg:pt-32 lg:pb-12 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute top-10 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
@@ -61,7 +61,7 @@ export function Hero() {
                   <div className="text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-display)" }}>
                     50% OFF
                   </div>
-                  <p className="text-sm text-muted-foreground">nos próximos 3 meses</p>
+                  <p className="text-sm text-muted-foreground">nos próximos 2 meses</p>
                 </div>
               </div>
             </div>

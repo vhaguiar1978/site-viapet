@@ -1,22 +1,28 @@
 import type { Metadata } from 'next'
-import { Inter, Poppins } from 'next/font/google'
+import { Inter, Poppins, Bagel_Fat_One } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
   variable: '--font-inter'
 });
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   subsets: ["latin"],
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-poppins'
 });
 
+const bagelFatOne = Bagel_Fat_One({
+  subsets: ['latin'],
+  weight: '400',
+  variable: '--font-brand'
+});
+
 export const metadata: Metadata = {
   title: 'ViaPet | Sistema para Pet Shop, Clínica Veterinária e Banho e Tosa',
-  description: 'O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa. 30 dias grátis + 50% de desconto nos primeiros 3 meses!',
+  description: 'O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa. 30 dias grátis + 50% de desconto nos primeiros 2 meses!',
   generator: 'ViaPet',
   icons: {
     icon: [
@@ -44,7 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className={`${inter.variable} ${poppins.variable} font-sans antialiased`}>
+      <body className={`${inter.variable} ${poppins.variable} ${bagelFatOne.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>

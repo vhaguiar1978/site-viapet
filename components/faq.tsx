@@ -11,7 +11,7 @@ import {
 const faqs = [
   {
     question: "Como funciona o período de teste grátis?",
-    answer: "Você tem 30 dias completos para testar todas as funcionalidades do ViaPet, sem nenhum compromisso. Não pedimos cartão de crédito e você pode cancelar a qualquer momento. Se gostar, é só escolher um plano e aproveitar o desconto de 50% nos primeiros 3 meses!",
+    answer: "Você tem 30 dias completos para testar todas as funcionalidades do ViaPet, sem nenhum compromisso. Não pedimos cartão de crédito e você pode cancelar a qualquer momento. Se gostar, é só escolher um plano e aproveitar o desconto de 50% nos primeiros 2 meses!",
   },
   {
     question: "Posso migrar meus dados de outro sistema?",

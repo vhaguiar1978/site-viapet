@@ -25,7 +25,7 @@ export function Pricing() {
             className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-6 py-3 mb-8"
           >
             <Sparkles className="w-5 h-5 text-primary" />
-            <span className="font-semibold text-primary">30 dias grátis + 50% OFF nos primeiros 3 meses</span>
+            <span className="font-semibold text-primary">30 dias grátis + 50% OFF nos primeiros 2 meses</span>
             <Sparkles className="w-5 h-5 text-primary" />
           </motion.div>
 
@@ -76,7 +76,7 @@ export function Pricing() {
                   </div>
 
                   <p className="text-sm text-muted-foreground mt-2">
-                    *Valor promocional por 3 meses, depois R$ 69,90/mês
+                    *Valor promocional por 2 meses, depois R$ 69,90/mês
                   </p>
                 </div>
 

@@ -1,5 +1,6 @@
 "use client"
 
+import Image from "next/image"
 import { motion } from "framer-motion"
 import { 
   Calendar, 
@@ -89,7 +90,14 @@ export function Features() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 
+          <Image
+            src="/logo-viapet.png"
+            alt="ViaPet"
+            width={160}
+            height={195}
+            className="h-28 md:h-36 lg:h-40 w-auto object-contain mx-auto mb-6"
+          />
+          <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4"
             style={{ fontFamily: 'var(--font-display)' }}
           >
