@@ -21,6 +21,7 @@ const bagelFatOne = Bagel_Fat_One({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://viapet.app'),
   title: 'ViaPet | Sistema para Pet Shop, Clínica Veterinária e Banho e Tosa',
   description: 'O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa. 30 dias grátis + 50% de desconto nos primeiros 2 meses!',
   generator: 'ViaPet',
@@ -40,6 +41,28 @@ export const metadata: Metadata = {
       },
     ],
     apple: '/apple-icon.png',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'pt_BR',
+    url: 'https://viapet.app',
+    siteName: 'ViaPet',
+    title: 'ViaPet | Sistema para Pet Shop, Clínica Veterinária e Banho e Tosa',
+    description: 'O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa. 30 dias grátis + 50% de desconto nos primeiros 2 meses!',
+    images: [
+      {
+        url: '/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'ViaPet - Sistema para Pet Shop e Clínica Veterinária',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'ViaPet | Sistema para Pet Shop, Clínica Veterinária e Banho e Tosa',
+    description: 'O sistema mais completo e acessível para gestão de pet shops, clínicas veterinárias e banho e tosa. 30 dias grátis + 50% de desconto nos primeiros 2 meses!',
+    images: ['/og-image.png'],
   },
 }
 
