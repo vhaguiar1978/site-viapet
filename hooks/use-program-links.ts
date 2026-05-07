@@ -4,7 +4,7 @@ import { useEffect, useMemo, useState } from "react"
 
 const PROGRAM_URL = process.env.NEXT_PUBLIC_VIAPET_APP_URL || "https://app.viapet.app"
 const API_URL = process.env.NEXT_PUBLIC_VIAPET_API_URL || "https://api.viapet.app"
-const DEFAULT_WHATSAPP = process.env.NEXT_PUBLIC_DEFAULT_CONSULTANT_WHATSAPP || "551120977579"
+const DEFAULT_WHATSAPP = process.env.NEXT_PUBLIC_DEFAULT_CONSULTANT_WHATSAPP || "5511915050090"
 
 function normalizeWhatsapp(value?: string) {
   return String(value || "").replace(/\D/g, "")

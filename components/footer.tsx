@@ -9,23 +9,6 @@ const footerLinks = {
     { name: "Integrações", href: "#" },
     { name: "Atualizações", href: "#" },
   ],
-  empresa: [
-    { name: "Sobre nós", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Carreiras", href: "#" },
-    { name: "Parceiros", href: "#" },
-  ],
-  suporte: [
-    { name: "Central de ajuda", href: "#" },
-    { name: "Documentação", href: "#" },
-    { name: "Status do sistema", href: "#" },
-    { name: "Contato", href: "#" },
-  ],
-  legal: [
-    { name: "Privacidade", href: "#" },
-    { name: "Termos de uso", href: "#" },
-    { name: "LGPD", href: "#" },
-  ],
 }
 
 const socialLinks = [
@@ -36,14 +19,14 @@ const socialLinks = [
 ]
 
 export function Footer() {
-  const whatsappUrl = "https://wa.me/551120977579"
+  const whatsappUrl = "https://wa.me/5511915050090"
   const emailAddress = "contato@viapet.com.br"
 
   return (
     <footer className="bg-foreground text-background">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         {/* Main Footer */}
-        <div className="py-16 grid md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
+        <div className="py-16 grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12">
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link href="/" className="flex items-center mb-4 -ml-4 lg:-ml-8">
@@ -74,7 +57,7 @@ export function Footer() {
               </Link>
               <Link href={whatsappUrl} target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-white transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>(11) 2097-7579</span>
+                <span>(11) 91505-0090</span>
               </Link>
               <div className="flex items-center gap-3">
                 <MapPin className="w-4 h-4" />
@@ -88,45 +71,6 @@ export function Footer() {
             <h3 className="font-semibold mb-4">Produto</h3>
             <ul className="space-y-3">
               {footerLinks.produto.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-background/70 hover:text-background transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Empresa</h3>
-            <ul className="space-y-3">
-              {footerLinks.empresa.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-background/70 hover:text-background transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Suporte</h3>
-            <ul className="space-y-3">
-              {footerLinks.suporte.map((link) => (
-                <li key={link.name}>
-                  <Link href={link.href} className="text-background/70 hover:text-background transition-colors">
-                    {link.name}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="font-semibold mb-4">Legal</h3>
-            <ul className="space-y-3">
-              {footerLinks.legal.map((link) => (
                 <li key={link.name}>
                   <Link href={link.href} className="text-background/70 hover:text-background transition-colors">
                     {link.name}

@@ -27,19 +27,10 @@ export const metadata: Metadata = {
   generator: 'ViaPet',
   icons: {
     icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
+      { url: '/icon-light-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/logo-viapet.png', sizes: '512x512', type: 'image/png' },
     ],
+    shortcut: '/icon-light-32x32.png',
     apple: '/apple-icon.png',
   },
   openGraph: {
