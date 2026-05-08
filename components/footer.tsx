@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { Instagram, Facebook, Linkedin, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Facebook, Youtube, Mail, Phone, MapPin } from "lucide-react"
 
 const footerLinks = {
   produto: [
@@ -12,10 +12,9 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Facebook, href: "#", label: "Facebook" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Youtube, href: "#", label: "YouTube" },
+  { icon: Instagram, href: "https://instagram.com/viapet.app", label: "Instagram" },
+  { icon: Facebook, href: "https://facebook.com/viapet.app", label: "Facebook" },
+  { icon: Youtube, href: "https://youtube.com/@viapetappcontroleonline", label: "YouTube" },
 ]
 
 export function Footer() {
@@ -91,6 +90,8 @@ export function Footer() {
               <Link
                 key={social.label}
                 href={social.href}
+                target="_blank"
+                rel="noreferrer"
                 className="w-10 h-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-background/20 transition-colors"
                 aria-label={social.label}
               >
