@@ -38,7 +38,7 @@ export function CTA() {
             className="inline-flex items-center gap-2 bg-white/20 rounded-full px-6 py-3 mb-8"
           >
             <Sparkles className="w-5 h-5 text-white" />
-            <span className="font-semibold text-white">Oferta por tempo limitado</span>
+            <span className="font-semibold text-white">Escolha o plano ideal para sua rotina</span>
           </motion.div>
 
           <h2 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-6 text-balance" style={{ fontFamily: "var(--font-display)" }}>
@@ -48,9 +48,8 @@ export function CTA() {
           </h2>
 
           <p className="text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-8">
-            Teste todas as funcionalidades sem compromisso. E depois, aproveite
-            <span className="font-bold text-white"> 50% de desconto </span>
-            nos primeiros 2 meses!
+            Teste por 30 dias sem compromisso e conheça os recursos incluídos no
+            plano escolhido antes de assinar.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

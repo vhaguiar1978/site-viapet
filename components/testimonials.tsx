@@ -41,7 +41,7 @@ const testimonials = [
     role: "Mundo Pet Store",
     location: "Salvador, BA",
     image: "👩‍💼",
-    content: "A emissão automática de NFC-e me economiza horas por dia. O sistema é super intuitivo, minha equipe aprendeu em menos de uma hora!",
+    content: "O controle de vendas e estoque me economiza horas por dia. O sistema é super intuitivo, minha equipe aprendeu em menos de uma hora!",
     rating: 5,
   },
   {
