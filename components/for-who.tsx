@@ -23,8 +23,8 @@ const segments = [
   {
     icon: ShoppingBag,
     title: "Pet Shops",
-    description: "PDV completo, gestão de estoque inteligente, controle de vendas e emissão de notas fiscais.",
-    features: ["PDV integrado", "Controle de estoque", "NFC-e automática", "Relatórios de vendas"],
+    description: "PDV completo, gestão de estoque inteligente, controle de vendas e visão clara dos resultados.",
+    features: ["PDV integrado", "Controle de estoque", "Controle de vendas", "Relatórios de vendas"],
     color: "bg-primary/10 text-primary",
   },
   {

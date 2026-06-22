@@ -34,7 +34,7 @@ export function Hero() {
             >
               <Badge className="bg-primary/10 text-primary border-primary/30 px-4 py-2 text-sm font-medium">
                 <Sparkles className="w-4 h-4 mr-2" />
-                Oferta Especial por Tempo Limitado
+                Gestão completa para negócios pet
               </Badge>
             </motion.div>
 
@@ -54,14 +54,14 @@ export function Hero() {
                   <div className="text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-display)" }}>
                     30 dias grátis
                   </div>
-                  <p className="text-sm text-muted-foreground">para testar todas as funções</p>
+                  <p className="text-sm text-muted-foreground">para testar o plano escolhido</p>
                 </div>
                 <div className="hidden sm:block w-px h-12 bg-border" />
                 <div className="text-center sm:text-left">
                   <div className="text-3xl font-bold text-primary" style={{ fontFamily: "var(--font-display)" }}>
-                    50% OFF
+                    3 planos
                   </div>
-                  <p className="text-sm text-muted-foreground">nos próximos 2 meses</p>
+                  <p className="text-sm text-muted-foreground">para cada fase do negócio</p>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ export function Hero() {
                 transition={{ delay: 0.8, type: "spring" }}
                 className="absolute top-4 left-4 bg-primary text-white rounded-full px-4 py-2 shadow-lg"
               >
-                <span className="text-sm font-bold">Melhor preço!</span>
+                <span className="text-sm font-bold">Feito para o mercado pet</span>
               </motion.div>
             </div>
           </motion.div>

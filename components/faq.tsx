@@ -11,7 +11,7 @@ import {
 const faqs = [
   {
     question: "Como funciona o período de teste grátis?",
-    answer: "Você tem 30 dias completos para testar todas as funcionalidades do ViaPet, sem nenhum compromisso. Não pedimos cartão de crédito e você pode cancelar a qualquer momento. Se gostar, é só escolher um plano e aproveitar o desconto de 50% nos primeiros 2 meses!",
+    answer: "Você tem 30 dias completos para testar os recursos do plano escolhido, sem compromisso e sem informar cartão de crédito. Ao final do teste, basta manter ou alterar o plano ideal para o seu negócio.",
   },
   {
     question: "Posso migrar meus dados de outro sistema?",
@@ -27,11 +27,11 @@ const faqs = [
   },
   {
     question: "Como é o suporte ao cliente?",
-    answer: "Temos uma equipe de suporte em português disponível por chat, email e telefone em horário comercial. No plano Profissional e Enterprise, você tem suporte prioritário com tempo de resposta reduzido.",
+    answer: "Temos uma equipe de suporte em português para ajudar na implantação e no uso do ViaPet. Os canais e níveis de atendimento seguem os recursos configurados em cada plano.",
   },
   {
     question: "O ViaPet emite nota fiscal?",
-    answer: "Sim! A partir do plano Profissional, você pode emitir NFC-e (nota fiscal do consumidor) e NFS-e (nota fiscal de serviço) diretamente pelo sistema, de forma automática e integrada.",
+    answer: "Em breve: emissão integrada de NFS-e, NFC-e e NF-e.",
   },
   {
     question: "Meus dados estão seguros?",
